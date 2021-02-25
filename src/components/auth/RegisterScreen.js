@@ -7,17 +7,17 @@ export const RegisterScreen = () => {
             <h3 className="auth__title">Register</h3>
 
             <form>
-            <input 
-                    type="text"
-                    placeholder="Email"
-                    name="email"
-                    className="auth__input"
-                    autoComplete="on"
-               />
-               <input 
+                <input 
                     type="text"
                     placeholder="Name"
                     name="name"
+                    className="auth__input"
+                    autoComplete="on"
+                />
+                <input 
+                    type="text"
+                    placeholder="Email"
+                    name="email"
                     className="auth__input"
                     autoComplete="on"
                />
