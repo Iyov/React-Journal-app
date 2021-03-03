@@ -33,7 +33,6 @@ describe('Pruebas en fileUpload', () => {
         
         const file = new File( [], 'batman.png' );
         const url = await fileUpload( file );
-        console.log(url);
 
         expect( url ).toBe(null);
 
